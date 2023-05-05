@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tkinter.Frame xmlns:attr="http://www.hoversetformationstudio.com/styles/" xmlns:layout="http://www.hoversetformationstudio.com/layouts/" name="frame_1" attr:layout="place" layout:width="500" layout:height="500" layout:x="30" layout:y="30">
+  <meta major="5" minor="0" name="version"/>
+  <tkinter.Text name="t1" layout:width="273" layout:height="475" layout:x="199" layout:y="10" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="b1" attr:command="selectFile" attr:text="Ekle" layout:width="160" layout:height="25" layout:x="22" layout:y="22" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="b2" attr:command="addFile" attr:text="Dosya Oluştur" layout:width="160" layout:height="25" layout:x="22" layout:y="88" layout:bordermode="outside"/>
+  <tkinter.ttk.Entry name="e1" attr:cursor="xterm" layout:width="171" layout:height="25" layout:x="22" layout:y="55" layout:bordermode="outside"/>
+  <tkinter.ttk.Treeview name="tree1" layout:width="160" layout:height="205" layout:x="22" layout:y="283" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="b3" attr:command="deleteFile" attr:text="Dosya sil" layout:width="160" layout:height="25" layout:x="22" layout:y="121" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="b4" attr:command="updateFile" attr:text="Dosyaları yenile" layout:width="160" layout:height="25" layout:x="22" layout:y="154" layout:bordermode="outside"/>
+  <tkinter.ttk.Button name="b5" attr:command="saveFile" attr:text="Kaydet" layout:width="160" layout:height="25" layout:x="22" layout:y="187" layout:bordermode="outside"/>
+</tkinter.Frame>
